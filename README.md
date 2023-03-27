@@ -17,32 +17,29 @@ My Aim for this project is to enhance my own skill in analysing data as well as 
 The data set contains 17,000 customers, including their age, gender, income, and date of becoming a member. Customers received offers every few days throughout the campaign month via a variety of promotional channels, (Email, Text, Phone call). However not every customer has gotten the same amount of offers.
 In order to best understand the data and provide the correct analysis I must have a strategy on how to segment the customers and a technique to do so.   
 
-    **1. Data Wrangling**
-    
+**1. Data Wrangling**   
 Data will read into three Pandas DataFrames. Each DataFrame will be cleaned and altered during data wrangling to prepare them for analysis. 
-    **2. Exploratory Data Analysis (EDA)**
+**2. Exploratory Data Analysis (EDA)**  
 To fully understand the data, I will first perform EDA on each of the three DataFrames separately. All DataFrames will undergo univariate analysis which produces a summary of the statistics for all variables related to each subject (offers, clients, and events) in the data. 
-    **3. Most popular offers & What made them popular?** 
+**3. Most popular offers & What made them popular?**  
 To answer this business question, I first need to find a better approach to sending customer specific deals. Firstly, I need to identify the best performance in the past and figure out the key factors that contribute to the high performance. Therefore, I analyse data of offers and data on offers related to the events combined.
-    **4. Customer Segmentation**
+**4. Customer Segmentation**  
 In regards of grouping customers by behaviour, I will use customer segmentation based on shared characteristics. K-means Clustering is a method used to find customer segments that share similar behaviour patterns, I will use this technique as I have previous experience with it.
-
-    **5. RFM Clustering** 
+**5. RFM Clustering**   
 Following Customer segmentation (RFM) Recency, Frequency, Monetary, is another effective technique use in marketing to segment customer into similar clusters and target them according to their demographic and transactional activities. 
 Information about the promotional offers that are possible to receive, and basic information about each one including the promotional type, duration of the promotion, reward, and how the promotion was distributed to customers. 
 
 ## Database
 
-Data
-About file
+Data  
+About file  
 
-Information about the promotional offers that are possible to receive, and basic information about each one including the promotional type, duration of the promotion, reward, and how the promotion was distributed to customers.
+Information about the promotional offers that are possible to receive, and basic information about each one including the promotional type, duration of the promotion, reward, and how the promotion was distributed to customers.  
 
 
-Dimensional data about each person, including their age, salary, and gender, there is one unique customer for each record.
+Dimensional data about each person, including their age, salary, and gender, there is one unique customer for each record.  
 
-Records show the different steps of promotional offers that a customer received. The different values of receiving a promotion are receiving, viewing, and completing. You also see the different transactions that a person made in the time since he became a customer. With all records, you see the day that they interacted with Starbucks and the amount that is worth
+Records show the different steps of promotional offers that a customer received. The different values of receiving a promotion are receiving, viewing, and completing. You also see the different transactions that a person made in the time since he became a customer. With all records, you see the day that they interacted with Starbucks and the amount that is worth  
 
-Create an Interactive Dashboard in Python
-Here is an example of the way I would like my project to be displayed 
-    • https://towardsdatascience.com/the-easiest-way-to-create-an-interactive-dashboard-in-python-77440f2511d1
+Create an Interactive Dashboard in Python  
+[Here](https://towardsdatascience.com/the-easiest-way-to-create-an-interactive-dashboard-in-python-77440f2511d1) is an example of the way I would like my project to be displayed   
