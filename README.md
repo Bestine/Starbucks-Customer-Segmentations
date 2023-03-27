@@ -18,16 +18,16 @@ The data set contains 17,000 customers, including their age, gender, income, and
 In order to best understand the data and provide the correct analysis I must have a strategy on how to segment the customers and a technique to do so.   
 
 **1. Data Wrangling**   
-Data will read into three Pandas DataFrames. Each DataFrame will be cleaned and altered during data wrangling to prepare them for analysis. 
+Data will read into three Pandas DataFrames. Each DataFrame will be cleaned and altered during data wrangling to prepare them for analysis.    
 **2. Exploratory Data Analysis (EDA)**  
-To fully understand the data, I will first perform EDA on each of the three DataFrames separately. All DataFrames will undergo univariate analysis which produces a summary of the statistics for all variables related to each subject (offers, clients, and events) in the data. 
+To fully understand the data, I will first perform EDA on each of the three DataFrames separately. All DataFrames will undergo univariate analysis which produces a summary of the statistics for all variables related to each subject (offers, clients, and events) in the data.  
 **3. Most popular offers & What made them popular?**  
-To answer this business question, I first need to find a better approach to sending customer specific deals. Firstly, I need to identify the best performance in the past and figure out the key factors that contribute to the high performance. Therefore, I analyse data of offers and data on offers related to the events combined.
+To answer this business question, I first need to find a better approach to sending customer specific deals. Firstly, I need to identify the best performance in the past and figure out the key factors that contribute to the high performance. Therefore, I analyse data of offers and data on offers related to the events combined.  
 **4. Customer Segmentation**  
-In regards of grouping customers by behaviour, I will use customer segmentation based on shared characteristics. K-means Clustering is a method used to find customer segments that share similar behaviour patterns, I will use this technique as I have previous experience with it.
+In regards of grouping customers by behaviour, I will use customer segmentation based on shared characteristics. K-means Clustering is a method used to find customer segments that share similar behaviour patterns, I will use this technique as I have previous experience with it.  
 **5. RFM Clustering**   
-Following Customer segmentation (RFM) Recency, Frequency, Monetary, is another effective technique use in marketing to segment customer into similar clusters and target them according to their demographic and transactional activities. 
-Information about the promotional offers that are possible to receive, and basic information about each one including the promotional type, duration of the promotion, reward, and how the promotion was distributed to customers. 
+Following Customer segmentation (RFM) Recency, Frequency, Monetary, is another effective technique use in marketing to segment customer into similar clusters and target them according to their demographic and transactional activities.  
+Information about the promotional offers that are possible to receive, and basic information about each one including the promotional type, duration of the promotion, reward, and how the promotion was distributed to customers.  
 
 ## Database
 
