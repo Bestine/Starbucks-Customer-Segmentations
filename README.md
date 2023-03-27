@@ -15,8 +15,10 @@ My Aim for this project is to enhance my own skill in analysing data as well as 
 
 ## Objective
 The data set contains 17,000 customers, including their age, gender, income, and date of becoming a member. Customers received offers every few days throughout the campaign month via a variety of promotional channels, (Email, Text, Phone call). However not every customer has gotten the same amount of offers.
-In order to best understand the data and provide the correct analysis I must have a strategy on how to segment the customers and a technique to do so. 
-    **1. Data Wrangling** 
+In order to best understand the data and provide the correct analysis I must have a strategy on how to segment the customers and a technique to do so.   
+
+    **1. Data Wrangling**
+    
 Data will read into three Pandas DataFrames. Each DataFrame will be cleaned and altered during data wrangling to prepare them for analysis. 
     **2. Exploratory Data Analysis (EDA)**
 To fully understand the data, I will first perform EDA on each of the three DataFrames separately. All DataFrames will undergo univariate analysis which produces a summary of the statistics for all variables related to each subject (offers, clients, and events) in the data. 
