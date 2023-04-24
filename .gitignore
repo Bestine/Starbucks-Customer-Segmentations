@@ -130,3 +130,5 @@ dmypy.json
 
 # Security Files
 security_files
+# Delivery files
+*.zip
